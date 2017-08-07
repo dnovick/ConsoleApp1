@@ -8,6 +8,11 @@ namespace ConsoleApp1
 {
     class Program
     {
+        static int myadd(int a, int b)
+        {
+            return a + b;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Here are my args!");
@@ -24,6 +29,10 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("I like Chinese food. You know that it's true.");
             }
+
+            int n = myadd(5, 6);
+
+            Console.WriteLine(String.Format("5 + 6 = {0}", n));
 
             Console.WriteLine("Bye bye.");
 
