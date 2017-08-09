@@ -80,6 +80,11 @@ namespace ConsoleApp1
                     s = "llama";
                     break;
                 case 100:
+                case 101:
+                case 102:
+                case 103:
+                case 104:
+                case 105:
                     s = "predator";
                     break;
                 default:
